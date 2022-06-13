@@ -12,3 +12,6 @@ You can connect a camera via an __rtsp stream__ or using a directly connected ca
 ### Requirements
 - Python 3.3+
 - macOS or Linux (Windows is also supported, but you will need to install ``cmake`` and ``dlib`` correctly)
+
+### Run
+To start the script simply use ``python main.py``. Make sure that you have installed all dependencies before via ``pip install <Module>``.
