@@ -18,7 +18,7 @@ To start the script simply use ``python main.py``. Make sure that you have insta
 
 ### Docker
 You can run this script inside a docker container. Therefore you will have to clone this repository:
-```git clone https://github.com/MikeNipkow/PiGPIOFaceRecognition.git```
+``git clone https://github.com/MikeNipkow/PiGPIOFaceRecognition.git``
 
 After that you can build the docker image with the included dockerfile:
-```sudo docker build -t <Image-Name> .```
+``sudo docker build -t <Image-Name> .``
