@@ -1,11 +1,11 @@
-import time, atexit
+import atexit
+import time
 from threading import Thread
 
 import pigpio as pigpio
 
 from ConfigManager import ConfigManager
 from api import Util
-
 # This class is used to handle the RaspberryPis IO's via GPIO.
 from api.Timer import Timer
 

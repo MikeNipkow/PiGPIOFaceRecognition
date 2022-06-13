@@ -1,9 +1,8 @@
 import datetime
-import os, face_recognition
-
+import face_recognition
+import os
 # This class handles the authorized persons.
 import time
-from threading import Thread
 
 import cv2
 

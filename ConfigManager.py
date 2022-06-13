@@ -1,5 +1,6 @@
-import os, shutil, configparser
-
+import configparser
+import os
+import shutil
 # This class is used to manage the configuration.
 import time
 from threading import Thread
