@@ -1,7 +1,6 @@
 import datetime
 import face_recognition
 import os
-# This class handles the authorized persons.
 import time
 
 import cv2
@@ -11,6 +10,7 @@ from ConfigManager import ConfigManager
 from api import Util
 
 
+# This class handles the authorized persons.
 class FaceManager:
     # Instance of ConfigManager.
     config = None
