@@ -23,6 +23,9 @@ class RaspberryPiManager:
     # Var to check if door is open.
     toggle = False
 
+    # Var to check if the door was open the last time it was checked.
+    last_gpio_state = False
+
     # Constructor.
     def __init__(self, config):
         assert isinstance(config, ConfigManager)
