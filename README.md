@@ -9,6 +9,6 @@ You can connect a camera via an __rtsp stream__ or using a directly connected ca
 ``PiGPIOFaceRecognition`` will automatically draw a box around the recognized faces and save the frame if an authorized person was found and the GPIO therefore turned on. If your reference image contain the persons name, e.g. ``Alex.png`` it will also display their names in the console and their name will be put under the drawn box in the frame.
 
 # Installation
-## Requirements
+### Requirements
 - Python 3.3+
 - macOS or Linux (Windows is also supported, but you will need to install ``cmake`` and ``dlib`` correctly)
