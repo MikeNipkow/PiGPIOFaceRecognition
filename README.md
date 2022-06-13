@@ -14,11 +14,12 @@ You can connect a camera via an __rtsp stream__ or using a directly connected ca
 - macOS or Linux (Windows is also supported, but you will need to install ``cmake`` and ``dlib`` correctly)
 
 ### Run
-To start the script simply use ``python main.py``. Make sure that you have installed all dependencies before via ``pip install <Module>``.
+To start the script simply use ``python main.py``. Make sure that you have installed all dependencies before via ``pip install <Module>`` or ``pip install --no-cache-dir -r requirements.txt``.
 
 ### Docker
 You can run this script inside a docker container. Therefore you will have to clone this repository:
-``git clone https://github.com/MikeNipkow/PiGPIOFaceRecognition.git``
+```git clone https://github.com/MikeNipkow/PiGPIOFaceRecognition.git```
 
 After that you can build the docker image with the included dockerfile:
-``sudo docker build -t <Image-Name> .``
+```sudo docker build -t pigpiofacerecognition ./PiGPIOFaceRecognition```
+
